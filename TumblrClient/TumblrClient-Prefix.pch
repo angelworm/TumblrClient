@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TumblrClient' target in the 'TumblrClient' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
