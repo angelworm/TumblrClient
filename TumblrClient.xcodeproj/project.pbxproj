@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98451B541722545100E58766 /* AGTumblrPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 98451B531722545100E58766 /* AGTumblrPost.m */; };
 		989AB31516E10E660047B94D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989AB31416E10E660047B94D /* Cocoa.framework */; };
 		989AB31F16E10E660047B94D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 989AB31D16E10E660047B94D /* InfoPlist.strings */; };
 		989AB32116E10E660047B94D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989AB32016E10E660047B94D /* main.m */; };
 		989AB32516E10E660047B94D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 989AB32316E10E660047B94D /* Credits.rtf */; };
 		989AB32816E10E660047B94D /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989AB32716E10E660047B94D /* AGAppDelegate.m */; };
 		989AB32B16E10E660047B94D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989AB32916E10E660047B94D /* MainMenu.xib */; };
+		989AB33216E117860047B94D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989AB33116E117860047B94D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98451B521722545100E58766 /* AGTumblrPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTumblrPost.h; sourceTree = "<group>"; };
+		98451B531722545100E58766 /* AGTumblrPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTumblrPost.m; sourceTree = "<group>"; };
 		989AB31116E10E660047B94D /* TumblrClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumblrClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		989AB31416E10E660047B94D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		989AB31716E10E660047B94D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +33,7 @@
 		989AB32616E10E660047B94D /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
 		989AB32716E10E660047B94D /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
 		989AB32A16E10E660047B94D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		989AB33116E117860047B94D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989AB33216E117860047B94D /* WebKit.framework in Frameworks */,
 				989AB31516E10E660047B94D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +69,7 @@
 		989AB31316E10E660047B94D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				989AB33116E117860047B94D /* WebKit.framework */,
 				989AB31416E10E660047B94D /* Cocoa.framework */,
 				989AB31616E10E660047B94D /* Other Frameworks */,
 			);
@@ -86,6 +93,8 @@
 				989AB32716E10E660047B94D /* AGAppDelegate.m */,
 				989AB32916E10E660047B94D /* MainMenu.xib */,
 				989AB31B16E10E660047B94D /* Supporting Files */,
+				98451B521722545100E58766 /* AGTumblrPost.h */,
+				98451B531722545100E58766 /* AGTumblrPost.m */,
 			);
 			path = TumblrClient;
 			sourceTree = "<group>";
@@ -169,6 +178,7 @@
 			files = (
 				989AB32116E10E660047B94D /* main.m in Sources */,
 				989AB32816E10E660047B94D /* AGAppDelegate.m in Sources */,
+				98451B541722545100E58766 /* AGTumblrPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +314,7 @@
 				989AB33016E10E660047B94D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
